@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../static/css/style.css">
+  <title>グレースケール</title>
+</head>
+
+<body>
+  <main>
+    <h1>グレースケールメーカー</h1>
+    <p>アップロードした画像がグレースケール変換され、保存されます。</p>
+    <form id="form" onsubmit="return false;">
+      <input id="file" type="file" accept=".png, .jpg, .jpeg">
+      <input id="file_name" type="text" placeholder="保存するファイル名">
+      <input id="btn" type="submit" value="作成">
+    </form>
+  </main>
+
+  <script src="../static/js/main.js"></script>
+</body>
+
+</html>
